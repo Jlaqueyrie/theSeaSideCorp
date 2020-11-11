@@ -25,17 +25,27 @@ header, footer{
     padding: 3%;
 }
 
-
-aside, #coloneDroite{
+section{
+    clear: both;
+}
+aside, #colone-Droite{
     float:left;
     padding-left: 1%;
+}
+.bloc-droit, .bloc-gauche{
+    float: left;
+    width: 48%;
+    margin: 1%;
+}
+.bloc-dessous{
+    clear: both;
 }
 aside{
     width:20%;
     margin-right: 2%;
     background-color: brown;
 }
-#coloneDroite{
+#colone-Droite{
     width: 76%;
     background-color: cornsilk;
 }
