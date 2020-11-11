@@ -1,0 +1,49 @@
+body{
+    background-image: url('../images/4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main{
+width: 80%;
+margin: 0 auto;
+background-color: blue;
+}
+header, footer{
+    background: black; color: white;
+}
+#logo{
+    float: left;
+    display: inline-block;
+    padding: 3%;
+}
+#menu-haut{
+    text-align: right;
+}
+#menu-haut li{
+    display: inline-block;
+    padding: 3%;
+}
+
+
+aside, #coloneDroite{
+    float:left;
+    padding-left: 1%;
+}
+aside{
+    width:20%;
+    margin-right: 2%;
+    background-color: brown;
+}
+#coloneDroite{
+    width: 76%;
+    background-color: cornsilk;
+}
+figure{
+    clear: both;
+    margin: 0%;
+    text-align: center;
+}
+figure img{
+    width: 24%; 
+}
