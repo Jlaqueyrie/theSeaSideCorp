@@ -1,7 +1,4 @@
 body{
-    /*background-image: url('../images/4.jpg');
-    background-repeat: no-repeat;
-    background-attachment: scroll;*/
     background:url('../images/4.jpg') no-repeat scroll center center; #236AB9;
     background-size: cover;
 }
@@ -10,23 +7,29 @@ a:link{
     color: wheat;
 }
 a:visited{
-    color: tomato;
+    color: #190934;
 }
 a:hover{
     color: green;
 }
 /*********************/
+/*premier enfant test*/
+.bloc-droit p:first-child{
+    font-style: italic;
+    font-weight: bold;
+}
+/*********************/
 main{
-width: 80%;
-margin: 0 auto;
-background-color:#236AB9;
+    width: 80%;
+    margin: 0 auto;
+    background-color:#236AB9;
 }
 header, footer{
     background:#190934; color: white;
 }
 /** HEADER **/
 #logo{
-    float: left;
+    float:left;
     display: inline-block;
     padding: 3%;
 }
@@ -56,6 +59,18 @@ h1,h2,h3,h4, h5, h6{
     text-align: center;
     font-family: 'Amatic SC', cursive;
 }
+
+/*********************/
+/*pseudo élement*/
+h1::first-letter,h2::first-letter,h3::first-letter,h4::first-letter,h5::first-letter{
+    font-size: 1.5em;
+    font-weight: bold;
+    color:#190934;
+}
+/*h1::before{
+    content: "\f578";
+    font-family:"Amatic Sc";
+}*/
 .bloc-droit, .bloc-gauche{
     float: left;
     width: 48%;
@@ -85,4 +100,8 @@ footer{
 }
 p{
     font-family: 'belligerent_madnessregular';
+    text-indent: 10px;
+}
+p::first-line{
+    font-size: 1.5em;
 }
