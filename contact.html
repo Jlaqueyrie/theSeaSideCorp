@@ -48,9 +48,25 @@
                 <div id="contact">
                     <h2>Nous Contacter</h2>
                     <form method="post">
+                        <h2> Vos coordonnées</h2>
                         <label>Nom</label><input type="text" name="nom" autofocus required>
                         <label>Email</label><input type="email" name="email" required>
                         <label>Message</label><textarea id="message" rows="10" cols="40" name="message" required></textarea>
+                        <span>
+                            <input type="radio" id="Produit 1" name="produit1" value="produit1">
+                            <label>Produit 1</label>
+                        </span>
+                        <span>
+                            <input type="radio" id="Produit 2" name="produit2" value="produit2">
+                            <label>Produit 2</label>
+                        </span>
+                        <h2> Vos choix de produits</h2>
+                        <select id="choix" name="choixProduit">
+                            <option value="Produit 1">Produit 1</option>
+                            <option value="Produit 2">Produit 2</option>
+                        </select>
+                        <input type="submit">
+                        <input type="reset">
                     </form>
                 </div>
 

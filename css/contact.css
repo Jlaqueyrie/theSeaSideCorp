@@ -60,21 +60,28 @@ h1::first-letter,h2::first-letter,h3::first-letter,h4::first-letter,h5::first-le
     font-family: 'Amatic SC', cursive;
     border-radius: 10px;
     margin-bottom: 20px;
+    height: 70%;
 }
 #map{
     width: 90%;
-    margin-right: 10%;
     clear: both;
 }
 #coordonnee{
-    width:35%;
-    margin-left: 10%;
-    margin-right: 5%;
+    width:25%;
+    margin-left: 5%;
+    margin-right: 20%;
+}
+#contact form h2{
+    text-align: left;
+    text-decoration: underline;
+}
+#contact form label{
+    vertical-align: bottom;
 }
 #contact{
-    width: 25%;
-    margin-left: 5%;
-    margin-right: 10%;
+    width: 35%;
+    margin-left: 10%;
+    margin-right:5%;
 }
 #contact table{
     border: 1px solid black;
@@ -101,5 +108,9 @@ footer{
     padding: 2%;
 }
 #map iframe{
-    border: 1px solid black;
+    width: 80%;
+    height: 10%;
+    margin-left: 15%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
