@@ -92,17 +92,25 @@ form{
     border-radius: 5px;
     font-family: 'Amatic SC', cursive;
 }
-input, textarea, label{
+input, textarea{
     display: block;
     width: 90%;
     margin-left: 15px;
     margin-bottom: 12px;
     border-radius: 5px;
 }
+
 header, footer{
     background:#190934; color: white;
 }
-
+label { 
+    float: left; 
+} 
+  
+span { 
+    display: block; 
+    overflow: hidden;
+} 
 footer{
     font-family: 'dk_lemon_yellow_sun';
     padding: 2%;
