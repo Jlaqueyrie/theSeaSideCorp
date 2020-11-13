@@ -12,21 +12,13 @@ a:visited{
 a:hover{
     color: green;
 }
-/*********************/
-/*premier enfant test*/
-.bloc-droit p:first-child{
-    font-style: italic;
-    font-weight: bold;
-}
-/*********************/
+/*-------------------*/
 main{
     width: 80%;
     margin: 0 auto;
-    background-color:#236AB9;
+    background-color:rgba(35, 106, 185, 0.4);
 }
-header, footer{
-    background:#190934; color: white;
-}
+
 /** HEADER **/
 #logo{
     float:left;
@@ -50,11 +42,6 @@ header, footer{
 section{
     clear: both;
 }
-#coordonee, #{
-    float:left;
-    padding-left: 1%;
-    background-color: #D4E4F7;
-}
 h1,h2,h3,h4, h5, h6{
     text-align: center;
     font-family: 'Amatic SC', cursive;
@@ -67,41 +54,52 @@ h1::first-letter,h2::first-letter,h3::first-letter,h4::first-letter,h5::first-le
     font-weight: bold;
     color:#190934;
 }
-/*h1::before{
-    content: "\f578";
-    font-family:"Amatic Sc";
-}*/
-.bloc-droit, .bloc-gauche{
-    float: left;
-    width: 48%;
-    margin-left: 1%;
+#coordonnee, #contact{
+    float:left;
+    background-color: rgba(212, 228, 247, 0.5);
+    font-family: 'Amatic SC', cursive;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
-.bloc-dessous{
+#map{
+    width: 90%;
+    margin-right: 10%;
     clear: both;
 }
-aside{
-    width:20%;
-    margin-right: 2%;
+#coordonnee{
+    width:35%;
+    margin-left: 10%;
+    margin-right: 5%;
 }
-#colone-Droite{
-    width: 76%;
+#contact{
+    width: 25%;
+    margin-left: 5%;
+    margin-right: 10%;
 }
-figure{
-    clear: both;
-    margin: 0%;
-    text-align: center;
+#contact table{
+    border: 1px solid black;
+    font-size: 10px;
 }
-figure img{
-    width: 24%; 
+form{
+    width : 100%;
+    border-radius: 5px;
+    font-family: 'Amatic SC', cursive;
 }
+input, textarea, label{
+    display: block;
+    width: 90%;
+    margin-left: 15px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+}
+header, footer{
+    background:#190934; color: white;
+}
+
 footer{
     font-family: 'dk_lemon_yellow_sun';
     padding: 2%;
 }
-p{
-    font-family: 'belligerent_madnessregular';
-    text-indent: 10px;
-}
-p::first-line{
-    font-size: 1.5em;
+#map iframe{
+    border: 1px solid black;
 }
