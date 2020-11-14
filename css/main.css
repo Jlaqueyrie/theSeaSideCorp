@@ -1,5 +1,5 @@
 body{
-    background:url('../images/4.jpg') no-repeat scroll center center; #236AB9;
+    background:url('../images/4.jpg') no-repeat scroll center center; 
     background-size: cover;
 }
 /*attention à l'ordre*/
@@ -50,10 +50,10 @@ header, footer{
 section{
     clear: both;
 }
-#coordonee, #{
+#coordonee{
     float:left;
     padding-left: 1%;
-    background-color: #D4E4F7;
+    background-color:red;
 }
 h1,h2,h3,h4, h5, h6{
     text-align: center;
