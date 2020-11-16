@@ -24,7 +24,8 @@
             </header>
             <section> 
                 <div id="coordonnee">
-                    <h2>Nos coordonées</h2>
+                    <h3>Nos coordonées</h3>
+                    <hr>
                     <ul id="listContact">
                         <li><i class="far fa-building"></i> ma petite entreprise<br> 31300 toulouse</li>
                         <li><i class="fas fa-road"></i> 15 chemin de la crabe <br> 31300 toulouse</li>
@@ -42,23 +43,31 @@
                 <div id="contact">
                     <h2>Nous Contacter</h2>
                     <form method="post">
-                        <h2> Vos coordonnées</h2>
-                        <label>Nom</label><input type="text" name="nom" placeholder="entrez votre nom" autofocus required>
-                        <label>Email</label><input type="email" name="email" placeholder="entrez votre email" required>
-                        <label>Message</label><textarea id="message" rows="10" cols="40" name="message" placeholder="entrez votre message" required></textarea>
-                        <label>produit 1</label>
-                        <span>
+                        <h3> Vos coordonnées</h3>
+                        <hr>
+                        <div class="vert-align">
+                            <label>Nom</label><br><input type="text" name="nom" placeholder="entrez votre nom" autofocus required>
+                            <br>
+                            <label>Email</label><br><input type="email" name="email" placeholder="entrez votre email" required>
+                            <br>
+                            <label>Message</label><br><textarea id="message" rows="10" cols="40" name="message" placeholder="entrez votre message" required></textarea>
+                            <br>
+                        </div>
+                        <div>
                             <input type="radio" id="Produit 1" name="produit1" value="produit1">
-                        </span>
-                        <label>Produit 2</label>
-                        <span>
+                            <label>Produit 1</label>
+                        </div>
+                        <div>
                             <input type="radio" id="Produit 2" name="produit2" value="produit2">
-                        </span>
+                            <label>Produit 2</label>
+                        </div>
                         <h2> Vos choix de produits</h2>
+                        <hr>
                         <select id="choix" name="choixProduit">
                             <option value="Produit 1">Produit 1</option>
                             <option value="Produit 2">Produit 2</option>
                         </select>
+                        <br>
                         <input type="submit">
                         <input type="reset">
                     </form>

@@ -2,8 +2,12 @@ header, footer{
     background:#190934; color: white;
 }
 body{
-    background:url('../images/4.jpg') no-repeat scroll center center; #236AB9;
+    background:url('../images/4.jpg') no-repeat scroll center center;
     background-size: cover;
+    background-color: #236AB9;
+}
+hr{
+    border-top: 1px solid #190934;
 }
 main{
     width: 80%;
@@ -12,7 +16,7 @@ main{
 }
 /************HEADER*************/
 #logo{
-    float:left;
+    float: left;
     display: inline-block;
     padding: 3%;
 }
@@ -55,7 +59,17 @@ a:visited{
     color: #190934;
 }
 a:hover{
-    color: cyan;
+    color:#255072;
+}
+input[type=submit]:hover {
+  background-color: #255072;
+}
+input[type=reset]:hover {
+  background-color: #255072;
+}
+
+#choix:focus{
+    color: brown;
 }
 /*-------------------*/
 
@@ -67,22 +81,19 @@ a:hover{
     border-radius: 10px;
     margin-bottom: 20px;
     height: 70%;
+    padding: 7px;
+    font-family: 'FontAwesome', cursive;
 }
 #coordonnee{
-    margin: 4px;
-    padding: 4px;
+    margin: 15px;
     text-align: left;
-    font-family: 'FontAwesome', cursive;
 }
 #listContact{
     list-style-type: none;
     padding-left: 0px;
-    color:red;
 }
 #listContact a{
     text-decoration: none;
-    font-family: 'FontAwesome', cursive;    
-    color: red;
 }
 #tableHoraire, th, td, tr{
     border : 1px solid black;
@@ -91,34 +102,32 @@ a:hover{
 }
 /***************************************/
 #contact{
-    /* Style inputs */
-  input[type=text], select {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
+    width: 40%;
+    margin-left: 20%;
 }
+#contact h2, h3{
+    text-align: left;
+}
+input[type=text], input[type=email], textarea{
+    width: 70%;
+    border-radius: 2px;
+    font-family: 'FontAwesome', cursive;
+}
+select{
+    font-family: 'FontAwesome', cursive;
+    padding: 3px;
+    border-radius: 2px;
+}
+input[type=submit], input[type=reset] {
+    font-family: 'FontAwesome', cursive;
+    padding: 2px;
+    border-radius: 2px;
+    margin-top: 8px;
 
-/* Style the submit button */
-input[type=submit] {
-  width: 100%;
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
 }
+    /* Add a background color to the submit button on mouse-over */
 
-/* Add a background color to the submit button on mouse-over */
-input[type=submit]:hover {
-  background-color: #45a049;
-}
-}
+
 #map iframe{
     width: 80%;
     height: 10%;
