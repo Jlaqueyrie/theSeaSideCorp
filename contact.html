@@ -18,7 +18,7 @@
                 <!---Contenu principale-->
                 <ul id="menu-haut">
                     <li><i class="fa fa-ship" aria-hidden="true"></i><a href="index.html">Accueil</a></li>
-                    <li><i class="fa fa-shopping-basket" aria-hidden="true"></i><a href=#>Produit</a></li>
+                    <li><i class="fa fa-shopping-basket" aria-hidden="true"></i><a href="produit.html">Produit</a></li>
                     <li><i class="fa fa-address-book" aria-hidden="true"></i><a href=#>Contact</a></li>
                 </ul>
             </header>
@@ -46,20 +46,20 @@
                         <h3> Vos coordonnées</h3>
                         <hr>
                         <div class="vert-align">
-                            <label>Nom</label><br><input type="text" name="nom" placeholder="entrez votre nom" autofocus required>
+                            <label for="nom">Nom</label><br><input type="text" name="nom" placeholder="entrez votre nom" autofocus required>
                             <br>
-                            <label>Email</label><br><input type="email" name="email" placeholder="entrez votre email" required>
+                            <label for="email">Email</label><br><input type="email" name="email" placeholder="entrez votre email" required>
                             <br>
-                            <label>Message</label><br><textarea id="message" rows="10" cols="40" name="message" placeholder="entrez votre message" required></textarea>
+                            <label for="message">Message</label><br><textarea id="message" rows="10" cols="40" name="message" placeholder="entrez votre message" maxlength="250" required></textarea>
                             <br>
                         </div>
                         <div>
                             <input type="radio" id="Produit 1" name="produit1" value="produit1">
-                            <label>Produit 1</label>
+                            <label for="choixProduitRadio1">Produit 1</label>
                         </div>
                         <div>
                             <input type="radio" id="Produit 2" name="produit2" value="produit2">
-                            <label>Produit 2</label>
+                            <label for="choixProduitRadio2">Produit 2</label>
                         </div>
                         <h2> Vos choix de produits</h2>
                         <hr>

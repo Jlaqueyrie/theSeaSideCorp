@@ -74,78 +74,44 @@ input[type=reset]:hover {
     color: brown;
 }
 /*-------------------*/
-
-
-/************corps de page*************/
-#coordonnee, #contact{
-    float:left;
-    background-color: rgba(42, 63, 90, 0.5);
-    border-radius: 10px;
-    margin-bottom: 20px;
-    height: 70%;
-    padding: 7px;
-    font-family: 'FontAwesome', cursive;
+#image-produit, #description-produit{
+    width:40%;
+    float: left;
 }
-#coordonnee{
-    width: 35%;
-    margin-left: 5%;
-    margin-right: 17%;
-    text-align: left;
+#image-produit{
+    margin-right:5%;
+    margin-left: 3%;
 }
-#listContact{
-    list-style-type: none;
-    padding-left: 0px;
-}
-#listContact a{
-    text-decoration: none;
-}
-#tableHoraire{
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-}
-#tableHoraire, th, td, tr{
-    border : 1px solid black;
-    border-collapse: collapse;
+#image-produit img{
     text-align: center;
-
+    width: 100%;
+    border-radius: 5% 5% 20% 5%;
 }
-/***************************************/
-#contact{
-    width: 35%;
-    margin-right: 2.5%;
-}
-#contact h2, h3{
+#description-produit{
+    margin-left: 5%;
+    padding-left: 5%;
+    background-color: rgba(42, 63, 90, 0.5);
+    font-family: 'FontAwesome', cursive;
     text-align: left;
+    color: #9D8674;
 }
-input[type=text], input[type=email], textarea{
-    width: 95%;
-    border-radius: 2px;
+#description-produit ul{
+    list-style-type: none;
+    margin-left: -9%;
+}
+#figure, figcaption{
+    clear: both;
+    text-align: center;
     font-family: 'FontAwesome', cursive;
+    color: #9D8674;
+    margin-top:10%;
 }
-select{
-    font-family: 'FontAwesome', cursive;
-    padding: 3px;
-    border-radius: 2px;
+button{
+    background-color: ;
 }
-input[type=submit], input[type=reset] {
-    font-family: 'FontAwesome', cursive;
-    padding: 2px;
-    border-radius: 2px;
-    margin-top: 8px;
-
-}
-    /* Add a background color to the submit button on mouse-over */
-
-
-#map iframe{
-    width: 80%;
+figure img{
+    width: 20%;
     height: 10%;
-    margin-left: 10%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-footer{
-    font-family: 'dk_lemon_yellow_sun';
-    padding: 2%;
+    margin-left: 2%;
+    border-radius: 5% 5% 20% 5%;
 }
