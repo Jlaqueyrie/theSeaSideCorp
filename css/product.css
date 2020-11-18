@@ -79,21 +79,24 @@ input[type=reset]:hover {
     float: left;
 }
 #image-produit{
-    margin-right:5%;
+    margin-right:3%;
     margin-left: 3%;
 }
 #image-produit img{
-    text-align: center;
     width: 100%;
     border-radius: 5% 5% 20% 5%;
+    vertical-align: center;
 }
 #description-produit{
     margin-left: 5%;
     padding-left: 5%;
+    padding-bottom: 3%;
+    margin-right: 2%;
     background-color: rgba(42, 63, 90, 0.5);
     font-family: 'FontAwesome', cursive;
     text-align: left;
-    color: #9D8674;
+    color: #2e2c2b;
+    border-radius: 5%;
 }
 #description-produit ul{
     list-style-type: none;
@@ -103,8 +106,8 @@ input[type=reset]:hover {
     clear: both;
     text-align: center;
     font-family: 'FontAwesome', cursive;
-    color: #9D8674;
-    margin-top:10%;
+    color:#2e2c2b;
+    margin-top:16%;
 }
 button{
     background-color: ;
@@ -114,4 +117,8 @@ figure img{
     height: 10%;
     margin-left: 2%;
     border-radius: 5% 5% 20% 5%;
+    transition: transform .5s ease;
+}
+figure img:hover{
+  transform: scale(1.2);
 }

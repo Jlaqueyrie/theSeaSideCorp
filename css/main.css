@@ -22,7 +22,7 @@ a:hover{
 main{
     width: 80%;
     margin: 0 auto;
-    background-color:#236AB9;
+    background-color:rgba(35, 106, 185, 0.4);
 }
 header, footer{
     background:#190934; color: white;
@@ -82,9 +82,11 @@ h1::first-letter,h2::first-letter,h3::first-letter,h4::first-letter,h5::first-le
 aside{
     width:20%;
     margin-right: 2%;
+    background-color: rgba(42, 63, 90, 0.5);
 }
 #colone-Droite{
     width: 76%;
+    background-color: rgba(42, 63, 90, 0.5);
 }
 figure{
     clear: both;
@@ -93,6 +95,10 @@ figure{
 }
 figure img{
     width: 24%; 
+}
+figcaption{
+    font-family: 'dk_lemon_yellow_sun';
+    font-size: 20px;
 }
 footer{
     font-family: 'dk_lemon_yellow_sun';
