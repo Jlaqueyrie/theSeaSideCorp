@@ -1,0 +1,52 @@
+@media screen and (max-width:360px)
+{
+    body{
+        width: 360px;
+        height: 740px;
+    }
+    #logo{
+        width: 80%;
+        margin: auto auto;
+    }
+    main{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        background-color:rgba(35, 106, 185, 0.4);
+    }
+    aside, #colone-Droite{
+        padding-top: 20%;
+        height: 80%;
+    }
+    section{
+        height: 60%;
+    }
+    #menu-haut{
+        text-align: right;
+    }
+    #menu-haut li a{
+        color: #9D8674;
+        font-size: 1em;
+        text-decoration: none;
+    }
+    p{
+        font-family: 'belligerent_madnessregular';
+        font-size: 0.6em;
+    }
+    h1,h2,h3,h4, h5, h6{
+        text-align: center;
+        font-family: 'Amatic SC', cursive;
+        font-size: 1em;
+    }
+
+/*********************/
+/*pseudo élement*/
+    h1::first-letter,h2::first-letter,h3::first-letter,h4::first-letter,h5::first-letter{
+        font-size: 1.2em;
+        font-weight: bold;
+        color:#190934;
+    }
+    p::first-line{
+    font-size: 1.1em;
+}
+}

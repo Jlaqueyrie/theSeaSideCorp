@@ -42,9 +42,12 @@ header, footer{
     display: inline-block;
     padding: 3%;
 }
+#menu-haut li .fa{
+    font-size: 1em;
+}
 #menu-haut li a{
     color: #9D8674;
-    font-size: 20px;
+    font-size: 2em;
     text-decoration: none;
 }
 section{
@@ -98,7 +101,7 @@ figure img{
 }
 figcaption{
     font-family: 'dk_lemon_yellow_sun';
-    font-size: 20px;
+    font-size: 1.0em;
 }
 footer{
     font-family: 'dk_lemon_yellow_sun';
@@ -106,7 +109,7 @@ footer{
 }
 p{
     font-family: 'belligerent_madnessregular';
-    text-indent: 10px;
+    text-indent: 1em;
 }
 p::first-line{
     font-size: 1.5em;
