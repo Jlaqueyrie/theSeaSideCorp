@@ -4,7 +4,7 @@ body{
 }
 /*attention à l'ordre*/
 a:link{
-    color: wheat;
+    color: rgb(11, 4, 68);
 }
 a:visited{
     color: #190934;
@@ -16,7 +16,6 @@ a:hover{
 /*premier enfant test*/
 .bloc-droit p:first-child{
     font-style: italic;
-    font-weight: bold;
 }
 /*********************/
 main{
@@ -30,6 +29,7 @@ header, footer{
 /** HEADER **/
 #logo{
     float:left;
+    height: 2em;
     display: inline-block;
     padding: 3%;
 }
@@ -43,7 +43,7 @@ header, footer{
     padding: 3%;
 }
 #menu-haut li .fa{
-    font-size: 1em;
+    font-size: 2em;
 }
 #menu-haut li a{
     color: #9D8674;
@@ -85,10 +85,11 @@ h1::first-letter,h2::first-letter,h3::first-letter,h4::first-letter,h5::first-le
 aside{
     width:20%;
     margin-right: 2%;
+    margin-left: 2%;
     background-color: rgba(42, 63, 90, 0.5);
 }
 #colone-Droite{
-    width: 76%;
+    width: 72%;
     background-color: rgba(42, 63, 90, 0.5);
 }
 figure{
@@ -111,6 +112,6 @@ p{
     font-family: 'belligerent_madnessregular';
     text-indent: 1em;
 }
-p::first-line{
+/*p::first-line{
     font-size: 1.5em;
-}
+}*/

@@ -7,6 +7,7 @@
     #logo{
         width: 80%;
         margin: auto auto;
+        margin-right:2em;
     }
     main{
         width: 100%;
@@ -15,7 +16,7 @@
         background-color:rgba(35, 106, 185, 0.4);
     }
     aside, #colone-Droite{
-        padding-top: 20%;
+        padding-top: 10%;
         height: 80%;
     }
     section{
@@ -23,6 +24,8 @@
     }
     #menu-haut{
         text-align: right;
+        margin-right:3em;
+        margin-bottom: 15%;
     }
     #menu-haut li a{
         color: #9D8674;
@@ -31,12 +34,14 @@
     }
     p{
         font-family: 'belligerent_madnessregular';
-        font-size: 0.6em;
+        font-size: 0.7em;
     }
     h1,h2,h3,h4, h5, h6{
         text-align: center;
         font-family: 'Amatic SC', cursive;
         font-size: 1em;
+        padding-bottom: 0.5em;
+        padding-top: -1em;
     }
 
 /*********************/
