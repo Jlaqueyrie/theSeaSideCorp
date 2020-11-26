@@ -1,10 +1,27 @@
 header, footer{
     background:#190934; color: white;
 }
+footer{
+    font-family: 'dk_lemon_yellow_sun';
+    padding: 2%;
+}
 body{
     background:url('../images/4.jpg') no-repeat scroll center center;
     background-size: cover;
     background-color: #236AB9;
+}
+a{
+    font-family: 'FontAwesome', cursive;
+}
+/*attention à l'ordre*/
+a:link{
+    color:#190934;
+}
+a:visited{
+    color: #190934;
+}
+a:hover{
+    color:#255072;
 }
 hr{
     border-top: 1px solid #190934;
@@ -17,7 +34,7 @@ main{
 /************HEADER*************/
 #logo{
     float:left;
-    display: inline-block;
+    height: 2em;
     padding: 3%;
 }
 #menu-haut{
@@ -29,9 +46,12 @@ main{
     display: inline-block;
     padding: 3%;
 }
+#menu-haut li .fa{
+    font-size: 2em;
+}
 #menu-haut li a{
     color: #9D8674;
-    font-size: 20px;
+    font-size: 2em;
     text-decoration: none;
 }
 section{
@@ -49,18 +69,8 @@ h1::first-letter,h2::first-letter,h3::first-letter,h4::first-letter,h5::first-le
     font-weight: bold;
     color:#190934;
 }
-a{
-    font-family: 'FontAwesome', cursive;
-}
-a:link{
-    color:#190934;
-}
-a:visited{
-    color: #190934;
-}
-a:hover{
-    color:#255072;
-}
+
+
 input[type=submit]:hover {
   background-color: #255072;
 }
@@ -136,7 +146,10 @@ input[type=submit], input[type=reset] {
 
 }
     /* Add a background color to the submit button on mouse-over */
-
+p{
+    font-family: 'belligerent_madnessregular';
+    text-indent: 1em;
+}
 
 #map iframe{
     width: 80%;
@@ -144,8 +157,4 @@ input[type=submit], input[type=reset] {
     margin-left: 10%;
     margin-top: 10px;
     margin-bottom: 10px;
-}
-footer{
-    font-family: 'dk_lemon_yellow_sun';
-    padding: 2%;
 }

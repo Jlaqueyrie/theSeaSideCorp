@@ -1,6 +1,10 @@
 header, footer{
     background:#190934; color: white;
 }
+footer{
+    font-family: 'dk_lemon_yellow_sun';
+    padding: 2%;
+}
 body{
     background:url('../images/4.jpg') no-repeat scroll center center;
     background-size: cover;
@@ -8,6 +12,19 @@ body{
 }
 hr{
     border-top: 1px solid #190934;
+}
+a{
+    font-family: 'FontAwesome', cursive;
+}
+/*attention à l'ordre*/
+a:link{
+    color:#190934;
+}
+a:visited{
+    color: #190934;
+}
+a:hover{
+    color:#255072;
 }
 main{
     width: 80%;
@@ -17,7 +34,7 @@ main{
 /************HEADER*************/
 #logo{
     float:left;
-    display: inline-block;
+    height: 2em;
     padding: 3%;
 }
 #menu-haut{
@@ -29,9 +46,12 @@ main{
     display: inline-block;
     padding: 3%;
 }
+#menu-haut li .fa{
+    font-size: 2em;
+}
 #menu-haut li a{
     color: #9D8674;
-    font-size: 20px;
+    font-size: 2em;
     text-decoration: none;
 }
 section{
@@ -49,18 +69,7 @@ h1::first-letter,h2::first-letter,h3::first-letter,h4::first-letter,h5::first-le
     font-weight: bold;
     color:#190934;
 }
-a{
-    font-family: 'FontAwesome', cursive;
-}
-a:link{
-    color:#190934;
-}
-a:visited{
-    color: #190934;
-}
-a:hover{
-    color:#255072;
-}
+
 input[type=submit]:hover {
   background-color: #255072;
 }
@@ -105,9 +114,11 @@ input[type=reset]:hover {
 #figure, figcaption{
     clear: both;
     text-align: center;
-    font-family: 'FontAwesome', cursive;
     color:#2e2c2b;
     margin-top:16%;
+    font-family: 'dk_lemon_yellow_sun';
+    font-size: 1.0em;
+}
 }
 button{
     background-color: ;
@@ -121,4 +132,8 @@ figure img{
 }
 figure img:hover{
   transform: scale(1.2);
+}
+p{
+    font-family: 'belligerent_madnessregular';
+    text-indent: 1em;
 }

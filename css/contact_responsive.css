@@ -1,0 +1,67 @@
+/*Galaxy S9 - Iphone 6/7/8* portrait*/
+@media screen and (min-width:359px) and (max-width:376px)
+{
+    body{
+        width: 360px;
+        height: 740px;
+    }
+    #logo{
+        width: 80%;
+        margin: auto auto;
+        margin-right:2.0em;
+        margin-left: 1.5em;
+    }
+    main{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        background-color:rgba(35, 106, 185, 0.4);
+    }
+    #coordonnee, #contact {
+    width: 90%;
+    margin-top:0%;
+    margin-left: 2%;
+    text-align: left;
+    font-size: 0.7em;
+}
+    #menu-haut{
+        text-align: left;
+        margin-left: 0.8em;
+        margin-right:0.5em;
+        margin-bottom: 5%;
+    }
+    #menu-haut li a{
+        color: #9D8674;
+        font-size: 0.9em;
+        text-decoration: none;
+    }
+    #menu-haut li .fa{
+    font-size: 1em;
+    }
+        p{
+        font-family: 'belligerent_madnessregular';
+        font-size: 0.7em;
+    }
+    h1,h2,h3,h4, h5, h6{
+        text-align: center;
+        font-family: 'Amatic SC', cursive;
+        font-size: 1em;
+        padding-top: -1em;
+    }
+    form text, textarea, input, select, label{
+        font-size: 0.7em;
+    }
+    figure, footer{
+        margin-right: 1em;
+    }
+/*********************/
+/*pseudo élement*/
+    h1::first-letter,h2::first-letter,h3::first-letter,h4::first-letter,h5::first-letter{
+        font-size: 1.2em;
+        font-weight: bold;
+        color:#190934;
+    }
+    p::first-line{
+    font-size: 1.1em;
+    }
+}

@@ -1,16 +1,27 @@
+header, footer{
+    background:#190934; color: white;
+}
+footer{
+    font-family: 'dk_lemon_yellow_sun';
+    padding: 2%;
+}
 body{
-    background:url('../images/4.jpg') no-repeat scroll center center; #236AB9;
+    background:url('../images/4.jpg') no-repeat scroll center center; 
     background-size: cover;
+    background-color: #236AB9;
+}
+a{
+    font-family: 'FontAwesome', cursive;
 }
 /*attention à l'ordre*/
 a:link{
-    color: rgb(11, 4, 68);
+    color:#190934;
 }
 a:visited{
     color: #190934;
 }
 a:hover{
-    color: green;
+    color:#255072;
 }
 /*********************/
 /*premier enfant test*/
@@ -23,14 +34,10 @@ main{
     margin: 0 auto;
     background-color:rgba(35, 106, 185, 0.4);
 }
-header, footer{
-    background:#190934; color: white;
-}
-/** HEADER **/
+/************HEADER*************/
 #logo{
     float:left;
     height: 2em;
-    display: inline-block;
     padding: 3%;
 }
 #menu-haut{
@@ -53,16 +60,15 @@ header, footer{
 section{
     clear: both;
 }
+h1,h2,h3,h4, h5, h6{
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+}
 aside, #colone-Droite{
     float:left;
     padding-left: 1%;
     background-color: #D4E4F7;
 }
-h1,h2,h3,h4, h5, h6{
-    text-align: center;
-    font-family: 'Amatic SC', cursive;
-}
-
 /*********************/
 /*pseudo élement*/
 h1::first-letter,h2::first-letter,h3::first-letter,h4::first-letter,h5::first-letter{
@@ -104,9 +110,7 @@ figcaption{
     font-family: 'dk_lemon_yellow_sun';
     font-size: 1.0em;
 }
-footer{
-    font-family: 'dk_lemon_yellow_sun';
-    padding: 2%;
+
 }
 p{
     font-family: 'belligerent_madnessregular';
