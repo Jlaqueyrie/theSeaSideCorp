@@ -1,4 +1,4 @@
-/*Galaxy S9 - Iphone 6/7/8*/
+/*Galaxy S9 - Iphone 6/7/8* portrait*/
 @media screen and (min-width:359px) and (max-width:376px)
 {
     body{
@@ -8,7 +8,8 @@
     #logo{
         width: 80%;
         margin: auto auto;
-        margin-right:2em;
+        margin-right:2.0em;
+        margin-left: 1.5em;
     }
     main{
         width: 100%;
@@ -22,16 +23,21 @@
     }
     section{
         height: 60%;
+        margin-right: 1em;
     }
     #menu-haut{
-        text-align: right;
-        margin-right:3em;
+        text-align: left;
+        margin-left: 0.8em;
+        margin-right:0.5em;
         margin-bottom: 15%;
     }
     #menu-haut li a{
         color: #9D8674;
-        font-size: 1em;
+        font-size: 0.9em;
         text-decoration: none;
+    }
+    #menu-haut li .fa{
+    font-size: 1em;
     }
     p{
         font-family: 'belligerent_madnessregular';
@@ -44,7 +50,9 @@
         padding-bottom: 0.5em;
         padding-top: -1em;
     }
-
+    figure, footer{
+        margin-right: 1em;
+    }
 /*********************/
 /*pseudo élement*/
     h1::first-letter,h2::first-letter,h3::first-letter,h4::first-letter,h5::first-letter{
