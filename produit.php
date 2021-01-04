@@ -14,15 +14,8 @@
     <body>
         <main>
             <!-- en tête--->
-            <header>
-                <img id="logo" src="images/logo.png" alt="logo de la companie">
-                <!---Contenu principale-->
-                <ul id="menu-haut">
-                    <li><i class="fa fa-ship" aria-hidden="true"></i><a href="index.html">Accueil</a></li>
-                    <li><i class="fa fa-shopping-basket" aria-hidden="true"></i><a href=#>Produit</a></li>
-                    <li><i class="fa fa-address-book" aria-hidden="true"></i><a href=contact.html>Contact</a></li>
-                </ul>
-            </header>
+            <?php include('header.php')?>
+
             <aside id="image-produit">
                 <img src="./images/boite1.jpg">
             </aside>
@@ -48,7 +41,7 @@
                 <a href=#><img src="./images/boite3.jpg"></a>
                 <a href=#><img src="./images/boite3.jpg"></a>
             </figure>
-            <footer>copyright 2020</footer>
+            <?php include('footer.php')?>
         </main> 
     </body>
         
