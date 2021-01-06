@@ -15,6 +15,7 @@
     </head>
     <body>
         <main>
+            <?php include('header.php')?>
             <!-- en tête--->
             <section> 
                 <aside>

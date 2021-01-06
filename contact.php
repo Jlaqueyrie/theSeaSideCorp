@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <?php
+            ini_set('display_errors',1);
+            ini_set('log_error',1);
+            error_reporting(E_ALL);
+        ?>
         <meta charset="utf-8">
         <title>the seaside corp</title>
         <meta name="description" content="site de vente de produit marin">
@@ -36,7 +41,7 @@
 
                 <div id="contact">
                     <h2>Nous Contacter</h2>
-                    <form method="post">
+                    <form method="post" action="validation.php">
                         <h3> Vos coordonnées</h3>
                         <hr>
                         <div class="vert-align">
